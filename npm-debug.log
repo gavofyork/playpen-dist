@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'oo7',
+1 verbose cli   'oo7-parity',
+1 verbose cli   'oo7-react',
+1 verbose cli   'parity-reactive-ui' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData oo7@file:../../Core/oo7
+8 silly fetchPackageMetaData oo7-parity@file:../../Core/oo7-parity
+9 silly fetchPackageMetaData oo7-react@file:../../Core/oo7-react
+10 silly fetchPackageMetaData parity-reactive-ui@file:../../Core/parity-reactive-ui
+11 silly fetchOtherPackageData oo7@file:../../Core/oo7
+12 silly cache add args [ 'oo7@file:../../Core/oo7', null ]
+13 verbose cache add spec oo7@file:../../Core/oo7
+14 silly fetchOtherPackageData oo7-parity@file:../../Core/oo7-parity
+15 silly cache add args [ 'oo7-parity@file:../../Core/oo7-parity', null ]
+16 verbose cache add spec oo7-parity@file:../../Core/oo7-parity
+17 silly fetchOtherPackageData oo7-react@file:../../Core/oo7-react
+18 silly cache add args [ 'oo7-react@file:../../Core/oo7-react', null ]
+19 verbose cache add spec oo7-react@file:../../Core/oo7-react
+20 silly fetchOtherPackageData parity-reactive-ui@file:../../Core/parity-reactive-ui
+21 silly cache add args [ 'parity-reactive-ui@file:../../Core/parity-reactive-ui',
+21 silly cache add   null ]
+22 verbose cache add spec parity-reactive-ui@file:../../Core/parity-reactive-ui
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'oo7@file:../../Core/oo7',
+23 silly cache add   scope: null,
+23 silly cache add   escapedName: 'oo7',
+23 silly cache add   name: 'oo7',
+23 silly cache add   rawSpec: 'file:../../Core/oo7',
+23 silly cache add   spec: '/Users/gav/Core/Core/oo7',
+23 silly cache add   type: 'local' }
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'oo7-parity@file:../../Core/oo7-parity',
+24 silly cache add   scope: null,
+24 silly cache add   escapedName: 'oo7-parity',
+24 silly cache add   name: 'oo7-parity',
+24 silly cache add   rawSpec: 'file:../../Core/oo7-parity',
+24 silly cache add   spec: '/Users/gav/Core/Core/oo7-parity',
+24 silly cache add   type: 'local' }
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'oo7-react@file:../../Core/oo7-react',
+25 silly cache add   scope: null,
+25 silly cache add   escapedName: 'oo7-react',
+25 silly cache add   name: 'oo7-react',
+25 silly cache add   rawSpec: 'file:../../Core/oo7-react',
+25 silly cache add   spec: '/Users/gav/Core/Core/oo7-react',
+25 silly cache add   type: 'local' }
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'parity-reactive-ui@file:../../Core/parity-reactive-ui',
+26 silly cache add   scope: null,
+26 silly cache add   escapedName: 'parity-reactive-ui',
+26 silly cache add   name: 'parity-reactive-ui',
+26 silly cache add   rawSpec: 'file:../../Core/parity-reactive-ui',
+26 silly cache add   spec: '/Users/gav/Core/Core/parity-reactive-ui',
+26 silly cache add   type: 'local' }
+27 error addLocal Could not install /Users/gav/Core/Core/oo7
+28 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7'
+28 silly fetchPackageMetaData     at Error (native)
+28 silly fetchPackageMetaData  error for oo7@file:../../Core/oo7 { Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7'
+28 silly fetchPackageMetaData     at Error (native)
+28 silly fetchPackageMetaData   errno: -2,
+28 silly fetchPackageMetaData   code: 'ENOENT',
+28 silly fetchPackageMetaData   syscall: 'open',
+28 silly fetchPackageMetaData   path: '/Users/gav/Core/Core/oo7' }
+29 error addLocal Could not install /Users/gav/Core/Core/oo7-parity
+30 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7-parity'
+30 silly fetchPackageMetaData     at Error (native)
+30 silly fetchPackageMetaData  error for oo7-parity@file:../../Core/oo7-parity { Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7-parity'
+30 silly fetchPackageMetaData     at Error (native)
+30 silly fetchPackageMetaData   errno: -2,
+30 silly fetchPackageMetaData   code: 'ENOENT',
+30 silly fetchPackageMetaData   syscall: 'open',
+30 silly fetchPackageMetaData   path: '/Users/gav/Core/Core/oo7-parity' }
+31 error addLocal Could not install /Users/gav/Core/Core/oo7-react
+32 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7-react'
+32 silly fetchPackageMetaData     at Error (native)
+32 silly fetchPackageMetaData  error for oo7-react@file:../../Core/oo7-react { Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7-react'
+32 silly fetchPackageMetaData     at Error (native)
+32 silly fetchPackageMetaData   errno: -2,
+32 silly fetchPackageMetaData   code: 'ENOENT',
+32 silly fetchPackageMetaData   syscall: 'open',
+32 silly fetchPackageMetaData   path: '/Users/gav/Core/Core/oo7-react' }
+33 error addLocal Could not install /Users/gav/Core/Core/parity-reactive-ui
+34 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/parity-reactive-ui'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData  error for parity-reactive-ui@file:../../Core/parity-reactive-ui { Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/parity-reactive-ui'
+34 silly fetchPackageMetaData     at Error (native)
+34 silly fetchPackageMetaData   errno: -2,
+34 silly fetchPackageMetaData   code: 'ENOENT',
+34 silly fetchPackageMetaData   syscall: 'open',
+34 silly fetchPackageMetaData   path: '/Users/gav/Core/Core/parity-reactive-ui' }
+35 silly rollbackFailedOptional Starting
+36 silly rollbackFailedOptional Finishing
+37 silly runTopLevelLifecycles Finishing
+38 silly install printInstalled
+39 verbose stack Error: ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7'
+39 verbose stack     at Error (native)
+40 verbose cwd /Users/gav/Core/playpen/dist
+41 error Darwin 16.3.0
+42 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "oo7" "oo7-parity" "oo7-react" "parity-reactive-ui"
+43 error node v6.9.2
+44 error npm  v3.10.9
+45 error path /Users/gav/Core/Core/oo7
+46 error code ENOENT
+47 error errno -2
+48 error syscall open
+49 error enoent ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7'
+50 error enoent ENOENT: no such file or directory, open '/Users/gav/Core/Core/oo7'
+50 error enoent This is most likely not a problem with npm itself
+50 error enoent and is related to npm not being able to find a file.
+51 verbose exit [ -2, true ]
